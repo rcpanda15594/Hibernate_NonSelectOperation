@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-5.0.dtd">     
+ 
+ <hibernate-mapping package="com.nt.domain"> 
+ <class name="com.nt.domain.Product">
+ <id name="pid" length="10" type="int"/>
+ <property name="pname" length="20" type="string"/>
+ <property name="price" length="10" type="float"/>
+ <property name="qty" length="10" type="int"/>
+ 
+<!--  <generator class="increment"/> -->
+ </class>
+ 
+ </hibernate-mapping>
+ 
+ 
